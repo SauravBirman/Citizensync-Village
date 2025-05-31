@@ -122,26 +122,39 @@ cd citizensync-village
 npm install
 ```
 
-### 3. Firebase Setup
+## 🔥 Firebase Setup
 
-- Go to [Firebase Console](https://console.firebase.google.com) and create a new project.
-- Enable the following:
-  - **Firestore Database**
-  - **Authentication > Anonymous Sign-In**
+Follow these steps to configure Firebase for your project:
 
-- Copy your Firebase config from:  
-  `Project Settings > General > Your apps`
+1. **Go to the Firebase Console**  
+   Visit [https://console.firebase.google.com](https://console.firebase.google.com) and create a new Firebase project.
 
-- Create a `.env` file in the root of your project:
+2. **Create a Web App**  
+   Inside your Firebase project dashboard, click **Add App > Web App**, give it a name, and click **Register App**.
 
-```env
-VITE_FIREBASE_API_KEY=your-api-key
-VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
-VITE_FIREBASE_PROJECT_ID=your-project-id
-VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-VITE_FIREBASE_APP_ID=your-app-id
-```
+3. **Enable Firestore and Authentication**
+   - Go to **Build > Firestore Database** and create a Firestore database.
+   - Go to **Build > Authentication > Sign-in method**, and enable **Anonymous sign-in** (for demo/testing purposes).
+
+4. **Get Firebase Config**
+   - Navigate to **Project Settings > General > Your Apps > Firebase SDK snippet**.
+   - Copy the configuration object that looks like this:
+
+     ```js
+     const firebaseConfig = {
+       apiKey: "",              // Unique API key for your Firebase project
+       authDomain: "",          // Auth domain used for authentication
+       projectId: "",           // Project ID of your Firebase project
+       storageBucket: "",       // Cloud Storage bucket for file uploads
+       messagingSenderId: "",   // Sender ID used for push notifications (optional)
+       appId: "",               // Unique identifier for your web app
+       measurementId: ""        // Used for Google Analytics (optional)
+     };
+     ```
+
+5. **Paste Config into Your Project**
+   - Open `src/services/firebase.js`.
+   - Replace the existing `firebaseConfig` object with the one you just copied.
 
 ### 4. Start Firebase Emulator (Optional)
 
@@ -157,6 +170,7 @@ firebase emulators:start
 ### 5. Run the App
 
 ```bash
+npm install
 npm run dev
 ```
 
