@@ -198,6 +198,9 @@ npm run dev
 ---
 
 ## 📸 Screenshots
+| Login Screen         | Dashboard View        |
+|----------------------|-----------------------|
+| ![Login](screenshots/Login.png) | ![Dashboard](screenshots/Home.png) |
 
 ---
 
