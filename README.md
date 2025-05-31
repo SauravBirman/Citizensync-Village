@@ -9,8 +9,8 @@
 
 ## 👥 Team Details
 
-- **Team Name**: [Your Team Name]
-- **Team Size**: ≤ 3 members
+- **Team Name**: Hacktivate
+- **Team Members**: Saurav and Vaishnavi Matsagar
 - **Hackathon**: HackVortex 2025
 
 ---
@@ -185,12 +185,5 @@ npm run dev
 
 ## 📸 Screenshots
 
-| Login Screen         | Dashboard View        |
-|----------------------|-----------------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
-
 ---
 
-## 📄 License
-
-MIT License – free to use, modify, and share.
