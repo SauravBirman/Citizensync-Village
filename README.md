@@ -82,27 +82,44 @@ citizensync-village/
 │   ├── favicon.ico
 ├── src/
 │   ├── App.jsx
-│   ├── Login.jsx
-│   ├── Home.jsx
-│   ├── firebase.js
+│   ├── App.css
+│   ├── main.jsx
+│   ├── index.css
+│   ├── i18n.js
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── Comment.jsx
+│   │   ├── IssueCard.jsx
+│   │   ├── Navbar.jsx
+│   │   └── VillageSelector.jsx
+│   ├── pages/
+│   │   ├── Announcements.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Home.jsx
+│   │   ├── IssuesList.jsx
+│   │   ├── Login.jsx
+│   │   ├── Notifications.jsx
+│   │   ├── ReportIssue.jsx
+│   │   └── VillageSelector.jsx
 │   ├── services/
 │   │   ├── api.js
-│   │   ├── auth.js
-│   ├── components/
-│   │   ├── VillageSelector.jsx
-│   ├── styles/
-│   ├── assets/
+│   │   └── firebase.js
+│   ├── utils/
+│   │   └── aiUtils.js
+├── .firebaserc
 ├── firebase.json
 ├── firestore.rules
-├── .firebaserc
-├── package.json
-├── package-lock.json
-├── vite.config.js
+├── firestore.indexes.json
+├── firestore-debug.log
 ├── .gitignore
+├── eslint.config.js
+├── package.json
+├── vite.config.js
 ├── README.md
 ├── screenshots/
 │   ├── login.png
-│   ├── dashboard.png
+│   └── dashboard.png
 ```
 
 ---
