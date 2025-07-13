@@ -11,7 +11,7 @@
 
 - **Team Name**: Hacktivate
 - **Team Members**: Saurav and Vaishnavi Matsagar
-- **Hackathon**: COde for Bharat Season 2
+- **Hackathon**: Code for Bharat Season 2
 
 ---
 
