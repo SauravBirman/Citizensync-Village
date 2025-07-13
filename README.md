@@ -1,6 +1,6 @@
 # CitizenSync Village
 
-**CitizenSync Village** is a rural governance platform developed for **HackVortex 2025**, designed to empower **Villagers**, **Sarpanch**, and **Tehsil Officers** to collaborate effectively on issue resolution, announcements, and community engagement.
+**CitizenSync Village** is a rural governance platform developed for **Code for Bharat**, designed to empower **Villagers**, **Sarpanch**, and **Tehsil Officers** to collaborate effectively on issue resolution, announcements, and community engagement.
 
 🔗 **Live Demo**: [https://citizensync-village.web.app](https://citizensync-village.web.app)  
 > _Note: If the app isn't working due to permissions, follow the local setup instructions below._
@@ -11,7 +11,7 @@
 
 - **Team Name**: Hacktivate
 - **Team Members**: Saurav and Vaishnavi Matsagar
-- **Hackathon**: HackVortex 2025
+- **Hackathon**: COde for Bharat Season 2
 
 ---
 
